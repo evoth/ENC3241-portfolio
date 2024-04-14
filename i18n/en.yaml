@@ -1,0 +1,67 @@
+tableOfContents:
+  other: Table of Contents
+
+backToTop:
+  other: Back to top
+
+switchTheme:
+  other: Switch theme
+
+toggleSidenote:
+  other: Toggle sidenote {{ .SidenoteNum }}
+
+collapseTOC:
+  other: Collapse table of contents
+
+expandTOC:
+  other: Expand table of contents
+
+postDates:
+  other: "{{ .Published }}{{ if ne .Published .Updated }} (updated {{ .Updated }}){{ end }}"
+
+postProjects:
+  one: Project
+  other: Projects
+
+postConcepts:
+  one: Concept
+  other: Concepts
+
+postTags:
+  one: Tag
+  other: Tags
+
+postLanguages:
+  one: Language
+  other: Languages
+
+postReferences:
+  other: References and Further Reading
+
+collapseMenu:
+  other: Close navigation menu
+
+expandMenu:
+  other: Open navigation menu
+
+comingSoon:
+  other: More coming soon!
+
+viewAll:
+  other: View all
+
+copyright:
+  other: "{{ .year }} © {{ .name }}"
+
+relatedPages:
+  other: Related Pages
+
+otherPages:
+  other: Other Pages
+
+metaLinks:
+  one: Link
+  other: Links
+
+notFound:
+  other: Either this page no longer exists, or it never existed in the first place. Sorry!

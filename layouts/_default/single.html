@@ -1,0 +1,5 @@
+{{ define "main" }}
+    {{ $related := site.RegularPages.Related . }}
+    {{ $other := complement $related site.RegularPages.ByWeight.ByLastmod.Reverse }}
+    {{ partial "pages/page.html" . }}
+{{ end }}

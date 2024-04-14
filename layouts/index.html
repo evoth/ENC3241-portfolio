@@ -1,0 +1,41 @@
+{{ define "main" }}
+    {{ with site.GetPage "/home_resources" }}
+        <div class="bg-zinc-200 dark:bg-zinc-800">
+            <div class="container-xl">
+                {{ partial "index/hero.html" . }}
+            </div>
+        </div>
+    {{ end }}
+    <div class="container-xl">
+        {{ partial "pages/list/card-lists.html" . }}
+    </div>
+{{ end }}
+
+{{ define "meta" }}
+    {{ with site.GetPage "/home_resources" }}
+        {{ partial "og/meta.html" . }}
+    {{ end }}
+{{ end }}
+
+{{ define "partials/index/hero.html" }}
+    <div class="flex md:flex-row flex-col gap-8 md:gap-12">
+        <div class="not-tooltip-container flex place-items-center flex-1">
+            <div class="not-tooltip-container">
+                {{ with .Resources.GetMatch "hero_title*.md" }}
+                <h1 class="text-6xl">
+                    {{ .Content }}
+                </h1>
+                <br>
+                {{ end }}
+                {{ with .Resources.GetMatch "hero_subtitle*.md" }}
+                {{ .Content }}
+                {{ end }}
+            </div>
+        </div>
+        {{ with .Resources.GetMatch "thumb" }}
+            <div class="flex-1">
+                <img src="{{ .RelPermalink }}" alt="{{ .Params.alt }}" class="rounded-xl object-cover min-h-full">
+            </div>
+        {{ end }}
+    </div>
+{{ end }}

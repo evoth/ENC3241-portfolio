@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default site.Language.Lang  }}" class="hidden overflow-x-hidden h-full">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.Params.Title }} - {{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ block "meta" . }}
+        {{ partial "og/meta.html" . }}
+    {{ end }}
+    {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
+    {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
+    {{ $public := not .Params.private }}
+    {{ if and $production $public }}
+      <meta name="robots" content="index, follow">
+    {{ else }}
+      <meta name="robots" content="noindex, nofollow">
+    {{ end }}
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <script src="/js/theme.js" type="module"></script>
+    <script src="/js/tooltips.js" type="module" defer></script>
+    <script src="/js/side-content.js" type="module" defer></script>
+    <script src="/js/sidenotes.js" type="module" defer></script>
+    <script src="/js/navbar.js" type="module" defer></script>
+    <script src="/js/menu.js" type="module" defer></script>
+    <script src="/js/toc.js" type="module" defer></script>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+  <body class="relative overflow-x-clip overflow-y-clip flex flex-col min-h-full">
+    {{ partial "pages/navbar.html" . }}
+    <main>
+        {{ block "main" . }}
+        {{ end }}
+    </main>
+    {{ partial "pages/footer.html" . }}
+  </body>
+</html>
