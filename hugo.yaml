@@ -28,8 +28,6 @@ languages:
         - name: Resume
           url: "https://enc3241.ethanvoth.com/Ethan_Voth_Resume_Spring_2024.pdf"
           weight: 3
-taxonomies:
-  tag: tags
 related:
   includeNewer: true
   toLower: true

@@ -1,15 +1,10 @@
 ---
-title: Posts
-summary: Here you can find posts about my projects, skills, and other thoughts on technology.
+title: Portfolio
+summary: Here you can find examples of my technical writing from my ENC3241 class.
 comingSoon: true
 lists:
-- /posts:
-    title: All posts
-- /series:
-- /languages:
-- /tags:
-- /concepts:
+- /portfolio:
 childrenLists:
-- /posts:
-    title: Other posts
+- /portfolio:
+    title: Other portfolio examples
 ---

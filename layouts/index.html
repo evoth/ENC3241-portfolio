@@ -6,9 +6,14 @@
             </div>
         </div>
     {{ end }}
+    <div class="-mt-6">
+        {{ partial "pages/page/content.html" . | partial "pages/content/post-container.html" }}
+    </div>
+    <!--
     <div class="container-xl">
         {{ partial "pages/list/card-lists.html" . }}
     </div>
+    -->
 {{ end }}
 
 {{ define "meta" }}
