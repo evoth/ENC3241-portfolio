@@ -20,6 +20,6 @@ In my free time, I love learning new things and working on personal projects. My
 
 {{< fig "My HDR composite of the sun's corona during totality on 4/8/24" >}}
   {{< grid 1 >}}
-  [![Brilliant bluish-white corona streamers emanating from blue-black disk of the moon.](Totality-HDR.jpg)](Totality-HDR-full.jpg)
+  [![Brilliant bluish-white corona streamers emanating from blue-black disk of the moon.](Totality-HDR.jpg)](Totality-HDR_full.jpg)
   {{< /grid >}}
 {{< /fig >}}
