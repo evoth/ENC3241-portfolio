@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio on </title>
+    <title>Technical writing projects on </title>
     <link>https://enc3241.ethanvoth.com/portfolio/</link>
-    <description>Recent content in Portfolio on </description>
+    <description>Recent content in Technical writing projects on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language><atom:link href="https://enc3241.ethanvoth.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instructions</title>
+      <link>https://enc3241.ethanvoth.com/portfolio/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://enc3241.ethanvoth.com/portfolio/instructions/</guid>
+      <description>Instructional guide on how to safely observe a total solar eclipse.</description>
+    </item>
+    
+    <item>
+      <title>Job Materials</title>
+      <link>https://enc3241.ethanvoth.com/portfolio/job-materials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://enc3241.ethanvoth.com/portfolio/job-materials/</guid>
+      <description>Updated resume and cover letter for use in my job search.</description>
+    </item>
+    
+    <item>
+      <title>Proposal</title>
+      <link>https://enc3241.ethanvoth.com/portfolio/proposal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://enc3241.ethanvoth.com/portfolio/proposal/</guid>
+      <description>Research proposal on using generative AI to improve the educational experience.</description>
+    </item>
+    
   </channel>
 </rss>
