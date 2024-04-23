@@ -1,15 +1,15 @@
-<div>
+<div class="my-12">
   <object
     data='{{ .Get 0 }}'
     type="application/pdf"
     width="100%"
-    height="1280"
+    style="aspect-ratio: 8.5 / 11.5;"
   >
 
     <iframe
       src='{{ .Get 0 }}'
       width="100%"
-      height="1280"
+      style="aspect-ratio: 8.5 / 11.5;"
     >
     <p>This browser does not support PDF!</p>
     </iframe>
