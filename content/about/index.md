@@ -1,5 +1,6 @@
 ---
 title: About
+summary: Background on my education, work experience, and hobbies.
 ---
 
 As a junior computer science major at the University of Central Florida, I have taken 42 credits in computer science and 19 credits in mathematics with a 3.97 GPA. I have also had the opportunity to complete multiple projects, including working on an 8-person Agile team to create a [full-stack household management app](https://github.com/carlos-jmh/large-project/tree/mobile-main) using the Amazon Amplify ecosystem with React Native.
