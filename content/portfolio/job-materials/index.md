@@ -4,6 +4,7 @@ summary: Updated resume, cover letter, and mini interview video
 resources:
 - name: thumb
   src: 2024-04-22 03_14_57_small.png
+weight: 1
 ---
 
 For this assignment, we were instructed to find a job listing and prepare job materials that could be used to apply for the position. The first part is the resume, which should highlight our relevant experience and skills for the job. The second part was a cover letter, which presents an opportunity to expand upon our experience outside of the resume and elaborate upon the qualities which make us a strong candidate for the job. Lastly, we were asked to create a short mini interview video that includes our background and a specific past experience that relates to the position.
